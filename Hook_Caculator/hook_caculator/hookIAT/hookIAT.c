@@ -9,7 +9,8 @@ FARPROC g_pOrginalFunction = NULL;
 
 BOOL WINAPI MySetWindowTextW(HWND hWnd, LPWSTR lpString)
 {
-	wchar_t* pNum = L"零一二三四五六七八九";
+	//wchar_t* pNum = L"零一二三四五六七八九";
+	wchar_t* pNum = L"零壹贰叁肆伍陆柒捌玖";
 	wchar_t temp[2] = { 0, };
 	int i = 0, nLen = 0, nIndex = 0;
 
